@@ -1,7 +1,8 @@
+# 2️⃣将下载的 arXiv 论文 PDF 文件重命名为标题
 import os
 import re
 
-txt_file = "input0.txt"
+txt_file = "input.txt"
 pdf_dir = "."  # 当前目录
 
 with open(txt_file, "r", encoding="utf-8") as f:

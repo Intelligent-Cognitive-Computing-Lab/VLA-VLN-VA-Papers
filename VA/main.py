@@ -1,3 +1,4 @@
+# 1️⃣从input.txt提取论文下载链接
 import re
 
 def extract_arxiv_links(file_path):
@@ -15,3 +16,8 @@ if __name__ == '__main__':
     links = extract_arxiv_links(input_file)
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write('\n'.join(links))
+
+# 使用aria2c下载PDF文件：
+    #  sudo apt update
+    #  sudo apt install aria2
+    #  aria2c -i urls.txt -j 5
