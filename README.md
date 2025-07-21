@@ -60,7 +60,7 @@ Git LFS will automatically download the necessary large files.
 If you only want to browse the code or documents and do **not** need the large files right away, you can skip downloading them at clone time:
 
 ```bash
-GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/Intelligent-Cognitive-Computing-Lab/VLA-VLN-VA-Papers.git
+GIT_LFS_SKIP_SMUDGE=1 git clone git@github.com:Intelligent-Cognitive-Computing-Lab/VLA-VLN-VA-Papers.git
 cd VLA-VLN-VA-Papers
 ```
 
